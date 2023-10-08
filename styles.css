@@ -1,0 +1,26 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background1.png');
+    background-size: 100% 99.99%; /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    background-position: center center; /* Center the background image */
+    height: 100vh;
+}
+
+#wallpaper {
+    position: relative;
+}
+
+#jumping-dog {
+    position: absolute;
+    top: 50px; /* Adjust as needed */
+    left: 120px; /* Adjust as needed */
+    width: 1630px; /* Adjust the size as needed */
+    cursor: pointer;
+    transition: transform 0.5s ease; /* Add smooth transition */
+    margin: 0;
+}
